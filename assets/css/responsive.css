@@ -1,0 +1,149 @@
+@media (max-width: 991px) {
+  #banner .banner_left {
+    padding: 0 0;
+  }
+  #banner .banner_left_text h2 {
+    font-size: 37px;
+  }
+
+  #about .about_right h2 {
+    font-size: 30px;
+  }
+  #about .about_right h4 {
+    font-size: 20px;
+  }
+  #about .about_right p {
+    font-size: 14px;
+  }
+  #about .work p {
+    font-size: 14px;
+  }
+  .services .row .col-md-4 {
+    padding: 0 5px;
+  }
+  .services .child_service h4{
+    font-size: 18px;
+  }
+  .protfolio .row .col-md-4 {
+    padding: 0 5px;
+  }
+  #portfolio .child_portfolio h2 {
+    font-size: 17px;
+  }
+  #portfolio .preview_btn .preview {
+    font-size: 14px;
+    padding: 4px 16px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  #banner {
+    padding: 30px 0;
+  }
+  .banner .row {
+    flex-direction: column-reverse;
+  }
+  #banner .banner_left {
+    margin-top: 20px;
+  }
+
+  #about .about_right {
+    margin-top: 20px;
+  }
+  #about .work {
+    margin: 5px 5px;
+  }
+
+  #services .child_service {
+    margin-top: 15px;
+  }
+
+  #testimonial .testimonial {
+    padding: 30px 0;
+  }
+  #testimonial .child_testimonial {
+    margin: 10px 0;
+  }
+
+  #contact .left {
+    margin-bottom: 20px;
+  }
+
+  #footer p {
+    font-size: 12px;
+  }
+
+  a span.top {
+    right: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  #about {
+    padding: 30px 0;
+  }
+  #about .about_left {
+    margin-top: 0;
+  }
+  #about .work {
+    margin: 5px 0px;
+  }
+  #banner .banner_left_text h2 {
+    font-size: 33px;
+  }
+  #banner .banner_left_text p {
+    font-size: 14px;
+  }
+  #banner .banner_left_btn .focus {
+    font-size: 14px;
+  }
+  #banner .banner_left_btn .non_focus {
+    font-size: 14px;
+  }
+  .protfolio_menu ul li {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  #contact .left .contact_info a {
+    font-size: 18px;
+  }
+  #contact .right .btn {
+    height: 40px;
+    font-size: 16px;
+  }
+  a span.top {
+    right: 20px;
+  }
+  .top.topBtn {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  #banner .banner_left_text h2 {
+    font-size: 30px;
+  }
+  #banner .banner_left_btn .focus {
+    margin-right: 10px;
+  }
+  #testimonial .child_testimonial p {
+    font-size: 12px;
+  }
+
+  #contact .left .text h3 {
+    font-size: 30px;
+  }
+  #contact .left .contact_info i {
+    font-size: 15px;
+  }
+  #contact .left .contact_info a {
+    font-size: 16px;
+  }
+  #contact .right .btn {
+    height: 42px;
+    width: 40%;
+    font-size: 16px;
+  }
+}
